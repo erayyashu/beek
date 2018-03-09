@@ -1,21 +1,14 @@
-# Ekko
+# Bekko
 
-[![Latest Stable Version](https://poser.pugx.org/laravelista/ekko/v/stable)](https://packagist.org/packages/laravelista/ekko)
-[![Total Downloads](https://poser.pugx.org/laravelista/ekko/downloads)](https://packagist.org/packages/laravelista/ekko)
-[![License](https://poser.pugx.org/laravelista/ekko/license)](https://packagist.org/packages/laravelista/ekko)
-[![Build Status](https://travis-ci.org/laravelista/Ekko.svg?branch=master)](https://travis-ci.org/laravelista/Ekko)
 
-[![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
-
-Ekko is a Laravel helper package. It helps you mark currently active menu item in your navbar.
+Bekko is a Laravel helper package. It helps you mark currently active menu item in your navbar.
 
 ## Installation
 
 From the command line:
 
 ```bash
-composer require laravelista/ekko
+composer require laravelista/bekko
 ```
 
 Laravel 5.5+ will use the auto-discovery function.
@@ -176,9 +169,3 @@ are_active_urls(array $urls, $output = "active")
 
 If the current URL path is `/product` or `/product/create`, function `areActiveURLs(['/product', '/product/create'])` would return *string* `active`.
 
-## Credits
-
-Many thanks to:
-
-- [@Jono20201](https://github.com/Jono20201) for implementing helper functions
-- [@judgej](https://github.com/judgej) for implementing route wildcards
